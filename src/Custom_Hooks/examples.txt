@@ -2,6 +2,6 @@ useForm
 useFetch
 useSessionStorage
 useLocalStorage
-useCustomLogger
+useConsoleLogger
 
 HOC PATTERN WITH HOOKS
