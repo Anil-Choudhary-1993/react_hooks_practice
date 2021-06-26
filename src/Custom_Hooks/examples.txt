@@ -1,0 +1,7 @@
+useForm
+useFetch
+useSessionStorage
+useLocalStorage
+useCustomLogger
+
+HOC PATTERN WITH HOOKS
