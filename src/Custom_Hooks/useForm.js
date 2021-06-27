@@ -7,9 +7,9 @@ const useForm = (fields = []) => {
       return obj;
     }, {})
   })
-  const updateState = (e) => {
+  const updateState = React.useCallback((e) => {
     setState(prevState => ({ ...prevState, [e.target.name]: e.target.value }))
-  }
+  }, [])
   return [state, updateState];
 }
 

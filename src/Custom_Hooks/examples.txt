@@ -1,7 +1,10 @@
-useForm
-useFetch
-useSessionStorage
-useLocalStorage
-useConsoleLogger
+useForm : Pass an array of object, it will return an object and handler to manage form state
+useFetch: Pass an url and it will return props to get loading, error and data
+useSessionStorage: Pass an key and value, it will get/set value in sessionStorage and update your state
+useLocalStorage: Pass an key and value, it will get/set value in localStorage and update your state
+useConsoleLogger: Pass an value and it will log old and new value of passed value
+useToggle: Use this hook to toggle component state
+useMemoCompare: Use this hook to memorize the value of passed object
+useEventListener: Use this hooks to add event listener to elements
 
 HOC PATTERN WITH HOOKS
